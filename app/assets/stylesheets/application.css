@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+h1{
+  font-weight: bolder;
+  font-size: large;
+  font-style: normal;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.answer,.question{
+  font-size: medium;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.person,.coach{
+  margin-left: 30px;
+}
+
+.links{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.one, .two{
+  border-left: 6px solid grey;
+  margin-left: 10px;
+}
+
+.one:hover, .two:hover{
+  background-color: rgb(245, 245, 163);
+}
